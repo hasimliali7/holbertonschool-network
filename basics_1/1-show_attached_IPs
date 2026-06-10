@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script displays the machine's active IPv4 addresses
+hostname -I

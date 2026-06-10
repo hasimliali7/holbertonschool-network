@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script displays the machine's active network interfaces
+ifconfig -a | grep -E '^[a-zA-Z0-9]' | cut -d: -f1 | cut -d' ' -f1

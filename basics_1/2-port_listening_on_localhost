@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script listens on localhost port 9876 using netcat
+nc -l 127.0.0.1 9876
